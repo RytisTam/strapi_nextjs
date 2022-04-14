@@ -31,7 +31,7 @@ const DynamicPage = ({ sections, metadata, preview, global, pageContext }) => {
     ...global.attributes.metadata,
     ...metadata,
   }
-
+  console.log(global);
   return (
     <Layout global={global} pageContext={pageContext}>
       {/* Add meta tags for SEO*/}
@@ -47,7 +47,7 @@ export async function getStaticPaths(context) {
   const pages = await context.locales.reduce(
     async (currentPagesPromise, locale) => {
       const currentPages = await currentPagesPromise
-      const localePages = await fetchAPI("/pages", {
+      const localePages = await fetchAPI("/paslaugos", {
         locale,
         fields: ["slug", "locale"],
       })

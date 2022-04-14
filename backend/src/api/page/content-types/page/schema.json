@@ -5,7 +5,8 @@
     "singularName": "page",
     "pluralName": "pages",
     "displayName": "Page",
-    "name": "page"
+    "name": "page",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -64,6 +65,16 @@
       },
       "type": "string",
       "regex": "^$|^[a-zA-Z/-]+$"
+    },
+    "SlideInText": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "elements.slide-in-text"
     }
   }
 }

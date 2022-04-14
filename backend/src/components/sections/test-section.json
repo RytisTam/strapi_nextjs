@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_sections_test_sections",
+  "info": {
+    "displayName": "Test section",
+    "icon": "arrow-circle-up"
+  },
+  "options": {},
+  "attributes": {
+    "SlideInText": {
+      "type": "string"
+    }
+  }
+}

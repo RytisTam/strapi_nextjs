@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gaminiai",
+  "info": {
+    "singularName": "gaminys",
+    "pluralName": "gaminiai",
+    "displayName": "gaminiai"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Nam": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "text"
+    }
+  }
+}
